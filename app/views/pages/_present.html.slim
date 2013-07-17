@@ -1,0 +1,30 @@
+.row.present
+  .large-4.columns.present_left
+
+    ul.menu.no-bullet
+      - @pages_all.each do |page|
+        - if page.show_title
+          li
+            a href=url_for(page_path(page))
+              i.icon-double-angle-right = ' ' + page.menu_title
+    /ul.menu.no-bullet
+      li
+        a href='#'
+          i.icon-double-angle-right  Главная
+      li
+        a href='#'
+          i.icon-double-angle-right  О Компании
+      li
+        a href='#'
+          i.icon-double-angle-right  Наши услуги
+      li
+        a href='#'
+          i.icon-double-angle-right  Полезная информация
+      li
+        a href='#'
+          i.icon-double-angle-right  Дополнительные услуги
+      li
+        a href='#'
+          i.icon-double-angle-right  Контакты
+  .large-8.columns.present1.present_right.hide-for-small
+

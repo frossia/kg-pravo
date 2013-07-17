@@ -1,0 +1,169 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ *= require foundation_and_overrides
+ */
+
+@import "bourbon";
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+html,body
+{
+  margin:0; padding:0; height:100%;
+}
+
+body {
+  background: #222;
+}
+
+.wrapper {
+  //padding: 0 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #fbfbfb;
+  @include border-top-radius(7px);
+  @include border-bottom-radius(7px);
+  @include box-shadow(0 1px 15px #1d1d1d);
+  overflow: hidden;
+}
+
+.head {
+  padding: 15px;
+  border-bottom: 2px solid white;
+  background: url("cream_pixels.png");
+  @include box-shadow(0 1px 5px #757575);
+
+  .logo {
+    //float: left;
+  }
+
+  .info {
+    //float: right;
+  }
+}
+
+.contents {
+  padding: 15px;
+}
+
+.present {
+  padding: 15px;
+  background: #383e46 url("stripe.png");
+  .present_left {
+    //background: #383e46;
+  }
+  a {
+    color: white;
+    border-bottom: 1px transparent;
+    &:hover {
+      border-bottom: 1px dashed;
+      color: #508abb;
+    }
+  }
+  .present1 {
+    background: url('present1.jpg') no-repeat right;
+    width: 100%;
+    height: 300px;
+    border: 2px solid #3f464e;
+    border-right: none;
+  }
+}
+
+.centred {
+  text-align: center;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.menu {
+  padding: 10px 0 0 10px;
+  li {
+    padding-bottom: 15px;
+  }
+}
+
+.footer {
+  padding: 10px;
+  color: white;
+  background: #383e46 url("stripe.png");
+}
+
+.right_side {
+  padding: 10px 0;
+}
+
+.block_right {
+  margin-top: 15px;
+  padding: 10px 20px;
+}
+
+.accordion p.title a {
+  font-size: 20px;
+}
+
+#accordion a {
+  font-size: .8em;
+  line-height: 1.4em;
+  .row {
+    padding: 10px 0;
+    background: #e7e7e7;
+    margin-left: 0;
+  }
+}
+
+.acc-content {
+  padding: 15px 0 0 15px;
+}
+
+.price {
+  margin: 5px 0;
+}
+.price-table {
+  font-size: .9em;
+}
+
+section p {
+  margin-bottom: 0;
+}
+
+.colored {
+  color: #a5a5a5;
+}
+
+.price {
+  color: #a5a5a5;
+  padding: 3px;
+  //@include border-top-radius(3px);
+  //background: #2b3037;
+}

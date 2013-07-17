@@ -1,0 +1,38 @@
+.row
+  .large-8.columns
+    .contents
+
+
+      - if @page
+        - if @page.show_title
+          h3 = @page.menu_title
+        p = @page.body.html_safe
+
+
+  .large-4.columns
+    .right_side
+      .block_right.centred
+        a href='#'
+          = image_tag "pero.png"
+        div
+          a.zapis href='#' Записаться на прием
+
+
+      .block_right
+        h6.subheader Актуальные услуги:
+        ul.no-bullet
+          li
+            a href='#'
+              i.icon-double-angle-right  Продажа доли в ООО
+          li
+            a href='#'
+              i.icon-double-angle-right  Внесение изменений в ЕГРЮЛ
+          li
+            a href='#'
+              i.icon-double-angle-right  Внесение изменений в устав
+          li
+            a href='#'
+              i.icon-double-angle-right  Взыскание долга по исполнительному листу
+          li
+            a href='#'
+              i.icon-double-angle-right  Исполнение решения суда
