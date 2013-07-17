@@ -29,14 +29,13 @@ group :assets do
   gem 'sassy-buttons'
   gem 'uglifier', '>= 1.0.3'
   gem 'neat'
-  gem 'zurb-foundation', '~> 4.0.0'
-  gem 'modernizr-rails'
+  gem 'jquery-rails', '2.3.0'
+  gem 'zurb-foundation', '~> 4.0.3'
 end
 
 #gem 'mysql2'
 
 gem 'multi_json'
-gem 'jquery-rails', '~> 2.3.0'
 gem 'devise'
 gem 'cancan'
 gem 'capistrano'
