@@ -1,4 +1,16 @@
 .row
+  - if flash[:notice]
+    .large-12.columns
+      .alert-box.success data-alert=''
+        span = flash[:notice]
+        a.close href='#' &times;
+
+  - if flash[:error]
+    .large-12.columns
+      .alert-box.alert data-alert=''
+        span = flash[:error]
+        a.close href='#' &times;
+
   .large-8.columns
     .contents
 
@@ -41,3 +53,5 @@
 
 #reception.reveal-modal
   = render 'receptions/form'
+#call.reveal-modal
+  = render 'calls/form'

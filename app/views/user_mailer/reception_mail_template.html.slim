@@ -1,2 +1,11 @@
-p = @mail_r.name
+
+p
+  b Имя:&nbsp;&nbsp;
+  span =  @mail_r.name
+p
+  b Контактные данные:&nbsp;&nbsp;
+  span =  @mail_r.contact
+p
+  b Время записи:&nbsp;&nbsp;
+  span =  @mail_r.rtime.to_s(:ru_datetime)
 p = @mail_r.body

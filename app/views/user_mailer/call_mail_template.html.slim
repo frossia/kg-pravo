@@ -1,0 +1,8 @@
+
+p
+  b Имя:&nbsp;&nbsp;
+  span =  @mail_call.name
+p
+  b Удобное время для звонка:&nbsp;&nbsp;
+  span =  @mail_call.call_time.to_s(:ru_datetime)
+p = @mail_call.body

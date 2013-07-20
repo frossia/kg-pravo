@@ -43,6 +43,7 @@ KgPravo::Application.configure do
       :user_name            => "info@kg-pravo.ru",
       :password             => "123qwe123",
       :authentication       => "plain",
+      :openssl_verify_mode  => 'none',
       :enable_starttls_auto => true
   }
 

@@ -15,6 +15,7 @@
 //= require jquery_ujs
 //= require foundation
 //= require foundation.reveal
+//= require foundation.alerts
 //= require_tree .
 
 
