@@ -1,0 +1,4 @@
+#!/bin/bash
+for i in $(ls *css) ; do mv $i $i.scss ; done
+sed -i '1s/^/body.active_admin { /' *scss
+sed -i -e "\$a}" *scss
