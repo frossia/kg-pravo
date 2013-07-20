@@ -13,6 +13,10 @@ class ApplicationController < ActionController::Base
   def menu
     @contact = Page.where(:menu_title => 'Контакты').first
     @pages_all = Page.all
+    @reception = Reception.new
   end
+
+
+
 
 end

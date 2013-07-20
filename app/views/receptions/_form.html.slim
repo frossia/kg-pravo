@@ -1,0 +1,19 @@
+h4 Запись на прием
+p.lead Заполните, пожалуйста, данную форму. Наш специалист свяжется с Вами для подтверждения записи в будний день с 9:30 до 18:00.
+.panel
+  = form_for @reception do |f|
+    = f.label 'Ваше имя *:'
+    = f.text_field :name
+    = f.label 'Контактный телефон или e-mail *:'
+    = f.text_field :contact
+    = f.label 'Желаемые дата и время визита*:'
+    = f.datetime_select :rtime, class: 'inline'
+    = f.label 'Цель визита:'
+    = f.text_area :body
+    p * - звездочкой обозначены обязательные для заполнения поля
+    = f.submit 'Отправить'
+  /- form_tag({controller: "receptions", action: "create"}) do |f|
+    = label_tag 'Ваше имя:'
+    = text_field_tag :name
+    = submit_tag 'Отправить'
+a.close-reveal-modal &#215;
