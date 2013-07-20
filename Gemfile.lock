@@ -233,6 +233,7 @@ DEPENDENCIES
   galetahub-simple_captcha
   jquery-rails (= 2.3.0)
   kaminari
+  mail
   meta_search (>= 1.1.0.pre)
   mini_magick
   multi_json
