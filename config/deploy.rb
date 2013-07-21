@@ -105,4 +105,11 @@ namespace :deploy do
   task :restart, :roles => :app do
     run "[ -f #{unicorn_pid} ] && kill -USR2 `cat #{unicorn_pid}` || #{unicorn_start_cmd}"
   end
+
+  desc "Uploads."
+  task :upload_db, :roles => :app do
+    #upload("../my_dir", "#{current_path}/my_dir", :via => :scp)
+    download("Users/Admin/projects/kg-pravo/db/development.sqlite3", "db/development.sqlite3", :via => :scp)
+  end
+
 end
