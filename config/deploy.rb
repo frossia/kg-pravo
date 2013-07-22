@@ -109,7 +109,8 @@ namespace :deploy do
   desc "Uploads."
   task :upload_db, :roles => :app do
     #upload("../my_dir", "#{current_path}/my_dir", :via => :scp)
-    download("Users/Admin/projects/kg-pravo/db/development.sqlite3", "db/development.sqlite3", :via => :scp)
+    #download("Users/Admin/projects/kg-pravo/db/development.sqlite3", "db/development.sqlite3", :via => :scp)
+    run 'cp '
   end
 
 end

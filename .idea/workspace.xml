@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.rb" changelist="38031480-6ca4-4a4b-b02d-e663c2201485" time="1374336128053" ignored="false" />
     <file path="/index.html.slim" changelist="38031480-6ca4-4a4b-b02d-e663c2201485" time="1373904326668" ignored="false" />
-    <file path="/application.html.slim" changelist="38031480-6ca4-4a4b-b02d-e663c2201485" time="1374438448666" ignored="false" />
+    <file path="/application.html.slim" changelist="38031480-6ca4-4a4b-b02d-e663c2201485" time="1374475215416" ignored="false" />
     <file path="/application.css.scss" changelist="38031480-6ca4-4a4b-b02d-e663c2201485" time="1374336165167" ignored="false" />
     <file path="/foundation_and_overrides.scss" changelist="38031480-6ca4-4a4b-b02d-e663c2201485" time="1373984339179" ignored="false" />
     <file path="/_present.html.slim" changelist="38031480-6ca4-4a4b-b02d-e663c2201485" time="1373972623260" ignored="false" />
@@ -40,7 +40,7 @@
     <file path="/calls_controller.rb" changelist="38031480-6ca4-4a4b-b02d-e663c2201485" time="1374336076416" ignored="false" />
     <file path="/call_mail_template.html.slim" changelist="38031480-6ca4-4a4b-b02d-e663c2201485" time="1374336441399" ignored="false" />
     <file path="/call.rb" changelist="38031480-6ca4-4a4b-b02d-e663c2201485" time="1374335577703" ignored="false" />
-    <file path="/deploy.rb" changelist="38031480-6ca4-4a4b-b02d-e663c2201485" time="1374442532809" ignored="false" />
+    <file path="/deploy.rb" changelist="38031480-6ca4-4a4b-b02d-e663c2201485" time="1374443133982" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
           <file leaf-file-name="call_mail_template.html.slim" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/user_mailer/call_mail_template.html.slim">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="81" selection-start="163" selection-end="163" vertical-scroll-proportion="0.3153153">
+                <state line="7" column="112" selection-start="163" selection-end="163" vertical-scroll-proportion="0.3153153">
                   <folding />
                 </state>
               </provider>
@@ -147,10 +147,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/deploy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="114" column="36" selection-start="4105" selection-end="4105" vertical-scroll-proportion="0.8663102">
+                <state line="112" column="117" selection-start="4109" selection-end="4109" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -165,10 +165,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="application.html.slim" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="application.html.slim" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="46" column="16" selection-start="1868" selection-end="1868" vertical-scroll-proportion="-3.0">
+                <state line="35" column="9" selection-start="1281" selection-end="2788" vertical-scroll-proportion="0.32960895">
                   <folding />
                 </state>
               </provider>
@@ -200,8 +200,8 @@
         <option value="$PROJECT_DIR$/app/views/receptions/_form.html.slim" />
         <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/call_mail_template.html.slim" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
       </list>
     </option>
   </component>
@@ -772,23 +772,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="16" selection-start="1868" selection-end="1868" vertical-scroll-proportion="-3.0">
+        <state line="112" column="117" selection-start="4109" selection-end="4109" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/user_mailer/call_mail_template.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="81" selection-start="163" selection-end="163" vertical-scroll-proportion="0.3153153">
+        <state line="7" column="112" selection-start="163" selection-end="163" vertical-scroll-proportion="0.3153153">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="36" selection-start="4105" selection-end="4105" vertical-scroll-proportion="0.8663102">
+        <state line="35" column="9" selection-start="1281" selection-end="2788" vertical-scroll-proportion="0.32960895">
           <folding />
         </state>
       </provider>
