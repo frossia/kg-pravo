@@ -21,27 +21,7 @@
         p = @page.body.html_safe
 
 
-  .large-4.columns
-    .right_side
-      .block_right.centred
-        a href='#' data-reveal-id='reception'
-          = image_tag "pero.png"
-        div
-          a.zapis href='#' data-reveal-id='reception' Записаться на прием
-
-
-
-      .block_right
-        h6.subheader Актуальные услуги:
-        ul.no-bullet
-          li
-            i.icon-double-angle-right  Взысание задолженности
-          li
-            i.icon-double-angle-right  Страховые выплаты
-          li
-            i.icon-double-angle-right  Срочный выезд адвоката
-          li
-            i.icon-double-angle-right  Снятие с регистрационного учета (выписка)
+  = render 'right_side'
 
 
 #reception.reveal-modal

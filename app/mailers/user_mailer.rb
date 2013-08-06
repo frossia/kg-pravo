@@ -1,7 +1,7 @@
 # coding: utf-8
 class UserMailer < ActionMailer::Base
   default from: "info@kg-pravo.ru"
-  @@mailto = 'frossiacsb@gmail.com'
+  @@mailto = 'info@kg-pravo.ru'
 
   def mail_reception(reception, subject)
     @mail_r = reception
